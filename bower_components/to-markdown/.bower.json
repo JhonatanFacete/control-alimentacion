@@ -1,0 +1,14 @@
+{
+  "name": "to-markdown",
+  "homepage": "https://github.com/domchristie/to-markdown",
+  "version": "5.0.1",
+  "_release": "5.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v5.0.1",
+    "commit": "e840f63f6efec0385e6b5ae3380c1749fd17c3e8"
+  },
+  "_source": "https://github.com/domchristie/to-markdown.git",
+  "_target": "^5.0.1",
+  "_originalSource": "to-markdown"
+}

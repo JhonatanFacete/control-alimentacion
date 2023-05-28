@@ -1,0 +1,505 @@
+@charset "utf-8";
+
+
+
+/* Funcion ocultar div*/
+
+.Div-afiliacion-show{
+
+	display: flex !important;
+
+	flex-wrap: wrap !important;
+
+}
+
+.cargando{
+
+	height: 100%;
+
+    width: 100%;
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    background: rgba(51, 51, 51, 0.52);
+
+    z-index: 100;
+
+    color: white;
+
+    font-size: 20px;
+
+}
+
+.cargando i {
+
+    margin-left: 50%;
+
+    margin-top: 24%;
+
+}
+
+.load{
+
+	position: fixed;
+
+    z-index: 5;
+
+    left: 50%;
+
+    top: 44%;
+
+	display: none;
+
+	
+
+}
+
+
+
+
+
+table.table-contenido thead tr th{
+
+    text-align: -webkit-center;
+
+
+}
+
+table.table-contenido thead tr th.th-0{
+
+	min-width: 20px;
+
+}
+
+table.table-contenido thead tr th.th-1{
+
+	min-width: 222px;
+
+}
+
+table.table-contenido thead tr th.th-fecha{
+
+	min-width: 90px;
+
+}
+
+table.table-contenido thead tr th.th-opcion{
+
+	min-width: 130px;
+
+}
+
+table.table-contenido tbody{
+
+	font-size: 10px;
+
+}
+
+
+
+.btn-close{
+	position: fixed;
+    bottom: 10px;
+    left: 42%;
+    z-index: 1;
+}
+
+
+
+.flotante-left {
+
+    position: fixed;
+
+    bottom: 30px;
+
+    right: 53px;
+
+    z-index: 1;
+
+}
+
+.flotante-right {
+
+    position: fixed;
+
+    bottom: 30px;
+
+    right: 19px;
+
+    z-index: 1;
+
+}
+
+.fixed-thead{
+
+	left: 117px;
+
+    right: 67px;
+
+	top: -24px;
+
+    overflow: hidden;
+
+    position: fixed;
+
+    display: inline-block;
+
+    width: auto;   
+
+}
+
+
+
+.valores-flotante{
+
+	overflow: hidden;
+
+    position: fixed;
+
+	width: auto;
+
+    right: 68px;
+
+    left: 118px;
+
+	background: white;
+
+    z-index: 1;
+
+}
+
+.valores-A{
+
+	bottom: 72px;
+
+}
+
+.valores-B{
+
+	bottom: 36px;
+
+}
+
+.valores-C{
+
+	bottom: 0px;
+
+}
+
+table.table-presupuesto tbody tr.valores-flotante td{
+
+	min-width: 74px;
+
+}
+
+table.table-presupuesto tbody tr.valores-flotante td.th-title{
+
+	min-width: 269px;
+
+	background-color: white;
+
+}
+
+table.table-presupuesto tbody tr.valores-flotante td.th-porc{
+
+	min-width: 31px;
+
+	background: white;
+
+}
+
+.text-firma{
+
+	border-bottom: 1px solid #c5cfd6;
+
+}
+
+
+
+/* STYLE */
+
+.wysiwyg-font-size-smaller {
+
+  font-size: smaller;
+
+}
+
+
+
+.wysiwyg-font-size-larger {
+
+  font-size: larger;
+
+}
+
+
+
+.wysiwyg-font-size-xx-large {
+
+  font-size: xx-large;
+
+}
+
+
+
+.wysiwyg-font-size-x-large {
+
+  font-size: x-large;
+
+}
+
+
+
+.wysiwyg-font-size-large {
+
+  font-size: large;
+
+}
+
+
+
+.wysiwyg-font-size-medium {
+
+  font-size: medium;
+
+}
+
+
+
+.wysiwyg-font-size-small {
+
+  font-size: small;
+
+}
+
+
+
+.wysiwyg-font-size-x-small {
+
+  font-size: x-small;
+
+}
+
+
+
+.wysiwyg-font-size-xx-small {
+
+  font-size: xx-small;
+
+}
+
+
+
+.wysiwyg-color-black {
+
+  color: black;
+
+}
+
+
+
+.wysiwyg-color-silver {
+
+  color: silver;
+
+}
+
+
+
+.wysiwyg-color-gray {
+
+  color: gray;
+
+}
+
+
+
+.wysiwyg-color-white {
+
+  color: white;
+
+}
+
+
+
+.wysiwyg-color-maroon {
+
+  color: maroon;
+
+}
+
+
+
+.wysiwyg-color-red {
+
+  color: red;
+
+}
+
+
+
+.wysiwyg-color-purple {
+
+  color: purple;
+
+}
+
+
+
+.wysiwyg-color-fuchsia {
+
+  color: fuchsia;
+
+}
+
+
+
+.wysiwyg-color-green {
+
+  color: green;
+
+}
+
+
+
+.wysiwyg-color-lime {
+
+  color: lime;
+
+}
+
+
+
+.wysiwyg-color-olive {
+
+  color: olive;
+
+}
+
+
+
+.wysiwyg-color-yellow {
+
+  color: yellow;
+
+}
+
+
+
+.wysiwyg-color-navy {
+
+  color: navy;
+
+}
+
+
+
+.wysiwyg-color-blue {
+
+  color: blue;
+
+}
+
+
+
+.wysiwyg-color-teal {
+
+  color: teal;
+
+}
+
+
+
+.wysiwyg-color-aqua {
+
+  color: aqua;
+
+}
+
+
+
+.wysiwyg-text-align-right {
+
+  text-align: right;
+
+}
+
+
+
+.wysiwyg-text-align-center {
+
+  text-align: center;
+
+}
+
+
+
+.wysiwyg-text-align-left {
+
+  text-align: left;
+
+}
+
+
+
+.wysiwyg-text-align-justify {
+
+  text-align: justify;
+
+}
+
+
+
+.wysiwyg-float-left {
+
+  float: left;
+
+  margin: 0 8px 8px 0;
+
+}
+
+
+
+.wysiwyg-float-right {
+
+  float: right;
+
+  margin: 0 0 8px 8px;
+
+}
+
+
+
+.wysiwyg-clear-right {
+
+  clear: right;
+
+}
+
+
+
+.wysiwyg-clear-left {
+
+  clear: left;
+
+}
+
+
+
+.img-votos{
+
+	width: 160px;
+
+}
+
+
+
+.text-voto{
+
+	font-size: 12px;
+
+}

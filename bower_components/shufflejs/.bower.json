@@ -1,0 +1,14 @@
+{
+  "name": "shufflejs",
+  "homepage": "https://github.com/Vestride/Shuffle",
+  "version": "5.2.0",
+  "_release": "5.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v5.2.0",
+    "commit": "b7de677c621ecf9e2e59a4e2e7dea6aca61d4099"
+  },
+  "_source": "https://github.com/Vestride/Shuffle.git",
+  "_target": "^5.2.0",
+  "_originalSource": "shufflejs"
+}

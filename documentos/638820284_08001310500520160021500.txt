@@ -1,0 +1,8 @@
+como instalar.
+- Descomprime el archivo, y veras algunos archivos .dll. Checa la primera imagen.
+- Copia Todos los archivos a la carpeta base del juego, es decir, a la carpeta del ejecutable o .exe del juego que quieras o que cuente con soporte de control Xbox 360, en este caso utilizare el GTA IV, checa segunda imagen.
+- Ejecuta el archivo XInputTest, esto para que este correctamente configurado dentro del juego; comprueba que este bien configurados los sticks y botones. Checa tercera imagen.
+- En caso de no estar bien configurados, abre el archivo .ini Xbox360cemu.ini, checa cuarta imagen. Veras que hay una configuracion especial, de 6 y -3 en el stick derecho, prueba cambiando valores.
+
+
+BY_thecappy
